@@ -20,7 +20,7 @@ Available in **Light (Canonical)** and **Dark (Heretic)** variants.
    git clone [https://github.com/Senka07/temple-os-emacs-theme.git](https://github.com/Senka07/temple-os-emacs-theme.git) ~/.emacs.d/themes/
 
     Add the following to your init.el:
-    Snippet de código
+    
 
     ;; Add the theme directory to load-path
     (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
