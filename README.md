@@ -29,21 +29,22 @@ Available in **Light (Canonical)** and **Dark (Heretic)** variants.
     ;; (load-theme 'temple-os t)    ;; Light Version (Canonical)
     (load-theme 'temple-dark t)  ;; Dark Version (Heretic)
 
-Installation via use-package (Straight.el / Quelpa)
+### Installation via use-package (Straight.el / Quelpa)
 
 If you use straight.el or quelpa, add this to your configuration:
 
-
+```elisp
 (use-package temple-os-theme
   :straight (:host github :repo "Senka07/temple-os-emacs-theme")
   :init
   ;; Choose ONE of the lines below:
   ;; (load-theme 'temple-os t)    ;; Light Version
   (load-theme 'temple-dark t)) ;; Dark Version
+```
 
-Troubleshooting
+## Troubleshooting
 
 If the colors look wrong (e.g., in a terminal), ensure your terminal supports 256 colors or TrueColor.
-License
 
+### License
 GPLv3
